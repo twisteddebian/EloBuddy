@@ -45,7 +45,7 @@ namespace AutoLvLSpells
         {
             Menu = MainMenu.AddMenu("AutoLevelUp", "AutoLevelUp");
             Chat.Print("Dakota's and KarmaPanda's Auto Level Up - updated by <font color='#a0a0a0'>twisteddebian</font>!");
-            Chat.Print("Patch <font color='#325122'>6.24</font>!");
+            Chat.Print("Patch <font color='#6371EF'>6.24</font>!");
             Menu.AddGroupLabel("Dakota's and KarmaPanda's Auto Level Up - updated by twisteddebian!");
             Menu.AddLabel(Player.ChampionName + " loaded. Credits to Dakota and KarmaPanda.");
             Menu.Add("delay", new Slider("Maximum Randomize Delay Value", 1000, 0, 10000));
